@@ -1,0 +1,13 @@
+provider "aws" {
+  region = "us-east-1"
+}
+resource "aws_security_group" "mysg" {
+  name = "mysg"
+  vpc_id = "${data.aws_vpc.vpc1.id}"
+  tags = {
+    Name = "mysg"
+  }
+}
+data "aws_vpc" "vpc1" {
+  default = true
+}

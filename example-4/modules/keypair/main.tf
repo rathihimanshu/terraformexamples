@@ -1,0 +1,4 @@
+resource "aws_key_pair" "testkey" {
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDHPx/mSDdGeSn1CiCi6zPKqMMKwC9v13gYoTkbFp29RXY2purSnVbSJmODgrOT86amiyM8+Jr7SHLfoNrpzcviSqYjsKMsZH4izM2H/cWPjOEcb+Zur1fV8l6tDXyS75fjWCLD9iH0jslQ+ZzbH3oMv//qhXplg6V6E7011e4QaM9nBiOmlDicQKMXPnzuUMZOYD80hA3VBDWJsuZDJuhHB5MxbW1k+F1hq7Gu+fzn5zhzEbPhr9Pnkd2j2cncI7wauHxW24rijPyZ/mA7sCLWH1vHALao0wHpJBM3IVzaLQipYMnSM8+nDs1y/k268gh2rmuhjTVP6FExutVrnazl himanshurathi@Himanshus-MBP"
+  key_name = "testkey"
+}
