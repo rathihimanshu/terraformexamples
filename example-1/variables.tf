@@ -1,5 +1,5 @@
 variable "regionname" {
-  type = "string"
+  type = string
   default = "us-east-1"
 }
 variable "amiid" {
